@@ -2,8 +2,8 @@
 
 ### A Comparative Study of Random Forest, Gradient Boosting, and Gaussian Process Regression
 
-**EEL 6843 — Final Project**  
-**Yuxuan Wu**  
+### **EEL 6843 — Final Project**  
+### **Yuxuan Wu**  
 Department of Materials Science and Engineering, University of Florida
 
 > **Project status:** In progress. This course project uses public data only. The document outlines the research questions, proposed methodology, and evaluation plan; numerical results will be reported after analysis. No unpublished research-group data or figures are included.
