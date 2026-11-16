@@ -6,7 +6,7 @@
 ### **Yuxuan Wu**  
 Department of Materials Science and Engineering, University of Florida
 
-> **Project status:** In progress. This course project uses public data only. The document outlines the research questions, proposed methodology, and evaluation plan; numerical results will be reported after analysis. No unpublished research-group data or figures are included.
+> **Project status:** In progress. This course project uses public data only. 
 
 ## 1. Overview and Research Questions
 
@@ -22,17 +22,11 @@ Computational adsorption screening can evaluate many candidate materials, but re
 2. How do Random Forest, Gradient Boosting, and Gaussian Process Regression compare in predictive accuracy and generalization to previously unseen materials?
 3. Which available material descriptors and operating conditions are most strongly associated with predicted Xe uptake?
 
-### 1.3 Project scope
-
-This study will use only publicly accessible data. The initial target is **Xe adsorption uptake** (with its original dataset units retained and documented), not DFT binding energy. If the selected download does not provide a matching feature or condition, the analysis will be adapted and documented rather than assuming that variable exists. Xe/Kr selectivity may be considered as a later extension only if matched gas data and a valid definition are available.
-
 ## 2. Dataset
 
 ### 2.1 Public data source
 
-**Primary candidate:** [MOFX-DB — Download Databases](https://mof.tech.northwestern.edu/databases), specifically the **hMOF — Krypton/Xenon** download. MOFX-DB aggregates simulated adsorption results, structural files, and textural properties for nanoporous materials [1]. The exact downloaded subset, version, permitted uses, and file names will be recorded here once the data have been inspected.
-
-The exact download, adsorption conditions, column definitions, and usable sample counts will be documented after inspecting the selected dataset. The analysis will retain the original uptake units and respect applicable data-reuse conditions.
+**Primary candidate:** [MOFX-DB — Download Databases](https://mof.tech.northwestern.edu/databases), specifically the **hMOF — Krypton/Xenon** download. MOFX-DB aggregates simulated adsorption results, structural files, and textural properties for nanoporous materials [1]. 
 
 **Important distinction:** The MOFX-DB download page lists Xe/Kr downloads for hMOFs and the Tobacco collection, but its IZA section currently lists a hydrogen download. This project therefore does not assume that a downloadable Xe-in-zeolites subset is included in IZA.
 
@@ -128,27 +122,13 @@ The discussion will distinguish validation performance from the final held-out t
 
 ## 8. Discussion
 
-### 8.1 Interpreting model performance
-
-The completed comparison will examine whether nonlinear tree ensembles or probabilistic regression better capture relationships between material descriptors, adsorption conditions, and Xe uptake. Model performance will be interpreted alongside the degree of generalization to unseen materials, rather than judged by training accuracy alone.
-
-### 8.2 Physical interpretation
-
-Published research shows that pore accessibility and local chemical environments can strongly influence Xe/Kr adsorption and separation [2, 3]. This provides a physical basis for examining pore-related descriptors and model feature importance. Such importance measures indicate predictive associations, not causal mechanisms. Findings from these publications are used as background, **not** as model-training labels.
-
-### 8.3 Limitations
-
-Potential limitations include the domain of the public database (e.g., hMOFs rather than zeolites), simulated rather than experimental labels, incomplete or mismatched descriptors, repeated adsorption conditions for each material, model extrapolation to unfamiliar structures, and the distinction between single-component uptake and actual mixture selectivity.
 
 ## 9. Expected Contributions and Future Work
 
-The intended contribution is a reproducible comparison of three regression approaches for predicting Xe uptake from public adsorption data, including careful group-based validation and interpretation of model errors. Conclusions about which method performs best will depend on the completed experiments.
-
-Future extensions include testing transfer across material families, calibrating predictive uncertainty, designing physics-informed descriptors, and using active learning to prioritize further simulations. These are proposed directions rather than completed results.
 
 ## 10. Reproducibility and Data Access
 
-The analysis is designed to use publicly accessible adsorption data from [MOFX-DB](https://mof.tech.northwestern.edu/databases). Jupyter notebooks, preprocessing steps, model settings, evaluation outputs, and package dependencies will be linked here once they are finalized and cleared for public release. Raw data will only be redistributed if permitted by the original source.
+The analysis is designed to use publicly accessible adsorption data from [MOFX-DB](https://mof.tech.northwestern.edu/databases). 
 
 ## 11. References and Literature Context
 
