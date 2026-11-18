@@ -128,7 +128,15 @@ The discussion will distinguish validation performance from the final held-out t
 
 ## 10. Reproducibility and Data Access
 
-The analysis is designed to use publicly accessible adsorption data from [MOFX-DB](https://mof.tech.northwestern.edu/databases). 
+The analysis is designed to use publicly accessible adsorption data from [MOFX-DB](https://mof.tech.northwestern.edu/databases).
+
+### Project Presentation
+
+A preliminary computational study of xenon adsorption in nanoporous materials is available in the following PDF:
+
+**[View Project Presentation (PDF)](./Presentation.pdf)**
+
+This presentation provides background on the computational workflow, adsorption behavior, and machine-learning approaches relevant to the project. 
 
 ## 11. References and Literature Context
 
